@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+.idea
+*.iml
+
+# Dev files for Sergey
+public/
+s

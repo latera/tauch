@@ -1,0 +1,24 @@
+{
+  "name": "tauch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sergey --exclude=docs,LICENSE,README.md,.vscode --watch",
+    "build": "sergey --exclude=public,LICENSE,README.md,.vscode --output=docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LateraOrg/tauch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LateraOrg/tauch/issues"
+  },
+  "homepage": "https://github.com/LateraOrg/tauch#readme",
+  "dependencies": {
+    "sergey": "^0.0.13"
+  }
+}
